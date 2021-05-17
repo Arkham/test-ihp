@@ -1,0 +1,2 @@
+2021-05-17 11:30:33.541 BST [22265] FATAL:  lock file "postmaster.pid" already exists
+2021-05-17 11:30:33.541 BST [22265] HINT:  Is another postmaster (PID 22094) running in data directory "/Users/arkham/code/ihp-blog/build/db/state"?
