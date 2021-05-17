@@ -25,6 +25,8 @@ ALTER TABLE public.posts ENABLE TRIGGER ALL;
 
 ALTER TABLE public.comments DISABLE TRIGGER ALL;
 
+INSERT INTO public.comments (id, post_id, author, body) VALUES ('a7aeb1a4-d6df-4113-98f1-368366e43c70', 'ae839791-9008-46dd-baaa-e48bb14e2a9a', '', '');
+INSERT INTO public.comments (id, post_id, author, body) VALUES ('8ec720c7-805f-470b-9829-3bc4fa286825', 'ae839791-9008-46dd-baaa-e48bb14e2a9a', 'Francis', 'Bacon');
 
 
 ALTER TABLE public.comments ENABLE TRIGGER ALL;
